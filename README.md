@@ -4,7 +4,6 @@
 
 This document document describes a framework for a small project architecture framework called SPA. This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
 
-
 The main reason why I created this framework is my desire to maintain a high quality even for the small projects with less efforts, keeping small projects fun. To archieve this SPA posesses the following feature:
 
 - Minimalistic
@@ -18,7 +17,18 @@ This framework is inspired by the following frameworks and models:
 - arc42
 - 4+1 Architectural View Model
 
-## Framework
+## Framework Contents / Scope
+
+- Project main document
+- [Unification Proposals](#unification-proposals)
+
+## Unification Proposals
+
+- Repository structure
+- Commit messages
+- Versioning
+
+## Main Document
 
 ### What is the project about?
 
@@ -40,11 +50,9 @@ This framework is inspired by the following frameworks and models:
 
 ...
 
-
 ### Composition
 
 ...
-
 
 #### Testing Startegy
 
@@ -54,21 +62,17 @@ This framework is inspired by the following frameworks and models:
 
 ...
 
-
 #### Software Structure
 
 ...
-
 
 #### System Conditions
 
 ...
 
-
 #### System Logic
 
 ...
-
 
 #### Documentation Structure
 
