@@ -1,48 +1,53 @@
 # Architecture
 
-## What is the project about?
+## 0. Reminder
+
+> A good architecture makes the system easy to change, in all the ways that it must change, by leaving options open.
+> *Robert C. Martin, Clean Architecture*
+
+## 1. Project Description
 
 This project devines the Small Project Architecture Framework (SPA). This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
 
-## Target User Of the Project
+## 2. Target Users
 
 - Developers
 - Open Source Contributors
 - Project Managers
 
-## Use Case
+## 3. Use Cases
 
 ![usecase](arch_usecase.drawio.svg)
 
-## Key Development Decisions
+## 4. Key Architecture Decisions and Principles
 
 - Implement as a markdown template
 - Must be minimalistic, but enough to cover the most important aspects
+- The document can be written in parallel with the project implementation
+- 5.0 Mandatory Note  must not be removed
 
-## Composition
+## 5. System
 
-...
+### 5.1 Documentation Structure
 
-### Testing Startegy
+![struct](arch_struct.drawio.svg)
+
+### 5.2 Testing Startegy
 
 Testing by usage of the framework in a real projects.
 
-### Physical Structure
+### 5.3 Hardware Components / Deployment
 
 Not applicable.
 
-### Virtual Structure
+### 5.4 Software Structure
 
 Not applicable.
 
-### System Conditions
+### 5.5 System Conditions
 
 Not applicable.
 
-### System Logic
+### 5.6 Operational Logic
 
 Not applicable.
-
-### Documentation Structure
-
-![struct](arch_struct.drawio.svg)

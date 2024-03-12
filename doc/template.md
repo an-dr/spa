@@ -1,48 +1,58 @@
 # Architecture
 
-## What is the project about?
+## SPA Introduction
 
-This project devines the Small Project Architecture Framework (SPA). This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
+This document is written using [Small Project Architecture (SPA)](https://github.com/an-dr/spa) framework. A framework that keeps the quality high and the project fun.
 
-## Target User Of the Project
+Friendly Reminder:
 
-- Developers
-- Project Managers
-- Open Source Contributors
+> A good architecture makes the system easy to change, in all the ways that it must change, by leaving options open.
+> *Robert C. Martin, Clean Architecture*
 
-## Use Case
+## 1. Project Description
 
-![usecase](arch_usecase.drawio.svg)
+Provide here a brief description of the project. What does it do? What is the main goal? What are the main features?
 
-## Key Development Decisions
+## 2. Target Users
 
-- Implement as a markdown template
-- Must be minimalistic, but enough to cover the most important aspects
+Why will use the project?
 
-## Composition
+## 3. Use Cases
 
-...
+How the project will be used by the users?
 
-### Testing Startegy
+## 4. Key Architecture Decisions and Principles
 
-Testing by usage of the framework in a real projects.
+The principles and values of the project that must not be violated:
 
-### Physical Structure (Deployment, Schematics, etc.)
+- Programming language
+- Particular hardware limitations
+- Recommended level of documentation
+- etc.
 
-Not applicable.
+## 5. System
 
-### Virtual Structure (Components, Modules, etc.)
+### 5.1 Documentation Structure
 
-Not applicable.
+What documentation should be used by the project contributors, project user? Provide links.
 
-### System Conditions
+### 5.2 Testing Startegy
 
-Not applicable.
+How the project will be tested? The simplest approach is to test by usage.
 
-### System Logic
+### 5.3 Hardware Components / Deployment
 
-Not applicable.
+- What hardware is used for the project? How it is interconnected?
+- For the software projects, what are the deployment strategies?
 
-### Documentation Structure
+### 5.4 Software Structure
 
-![struct](arch_struct.drawio.svg)
+Key Software components, dependency diagrams, etc.
+
+### 5.5 System Conditions
+
+Overal system conditions, e.g. Normal Operation, Fail State, etc.
+
+### 5.6 Operational Logic
+
+High level logic of the system, how the software comonets and the hardware components work with the users and in what conditions.
