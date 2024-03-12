@@ -1,13 +1,17 @@
 # Architecture
 
-## 0. Reminder
+## SPA Introduction
+
+This document is written using [Small Project Architecture (SPA)](https://github.com/an-dr/spa) framework. A framework that keeps the quality high and the project fun.
+
+Friendly Reminder:
 
 > A good architecture makes the system easy to change, in all the ways that it must change, by leaving options open.
 > *Robert C. Martin, Clean Architecture*
 
 ## 1. Project Description
 
-This project devines the Small Project Architecture Framework (SPA). This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
+This project defines the Small Project Architecture Framework (SPA). This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
 
 ## 2. Target Users
 
@@ -32,7 +36,7 @@ This project devines the Small Project Architecture Framework (SPA). This framew
 
 ![struct](arch_struct.drawio.svg)
 
-### 5.2 Testing Startegy
+### 5.2 Testing Strategy
 
 Testing by usage of the framework in a real projects.
 

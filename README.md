@@ -4,10 +4,10 @@
 
 This document document describes a framework for a small project architecture framework called SPA. This framework is intended to be used if you want to build a small project but don't want to miss some crucial detail in the beginning.
 
-The main reason why I created this framework is my desire to maintain a high quality even for the small projects with less efforts, keeping small projects fun. To archieve this SPA posesses the following feature:
+The main reason why I created this framework is my desire to maintain a high quality even for the small projects with less efforts, keeping small projects fun. To achieve this SPA posesses the following feature:
 
 - **Parallel development** of the project and the architecture.
-- **Giudance** where it is needed
+- **Guidance** where it is needed
 - **Low entry barrier**, can be implemented with any expertise in the topic, requires only basic knowledge of Markdown.
 - **Structured** but not suffocating
 - **Friendly** for new project contributors
@@ -20,5 +20,5 @@ This framework is inspired by the following frameworks and models:
 
 ## How to use the framework
 
-1. Copy the template to your project documentation folder.
+1. Copy the [template](doc/template.md) to your project documentation folder.
 2. Start answering the questions in the template, and advance in your development during filling the template.

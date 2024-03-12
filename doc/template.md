@@ -36,7 +36,7 @@ The principles and values of the project that must not be violated:
 
 What documentation should be used by the project contributors, project user? Provide links.
 
-### 5.2 Testing Startegy
+### 5.2 Testing Strategy
 
 How the project will be tested? The simplest approach is to test by usage.
 
@@ -51,7 +51,7 @@ Key Software components, dependency diagrams, etc.
 
 ### 5.5 System Conditions
 
-Overal system conditions, e.g. Normal Operation, Fail State, etc.
+Overall system conditions, e.g. Normal Operation, Fail State, etc.
 
 ### 5.6 Operational Logic
 
