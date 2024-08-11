@@ -10,6 +10,7 @@ The main reason why I created this framework is my desire to maintain a high qua
 - **Guidance** where it is needed
 - **Low entry barrier**, can be implemented with any expertise in the topic, requires only basic knowledge of Markdown.
 - **Structured** but not suffocating
+- **Scalable** smaller projects require less decisions and documentation.
 - **Friendly** for new project contributors
 
 This framework is inspired by the following frameworks and models:
@@ -20,5 +21,45 @@ This framework is inspired by the following frameworks and models:
 
 ## How to use the framework
 
-1. Copy the [template](doc/template.md) to your project documentation folder.
+1. Copy a [template](templates) to your project documentation folder.
 2. Start answering the questions in the template, and advance in your development during filling the template.
+
+## Product Evolution Model
+
+SPA is designed to be used in the following stages of the project:
+
+![progr](doc/product_progression.drawio.svg)
+
+## Templates Content
+
+Small Project (Prototype):
+
+- Description
+- Target Users
+- System
+    - Hardware
+    - Software Structure
+
+Medium Project (Minimum Viable Product or Simple Product):
+
+- Description
+- Target Users
+- [+] Use Cases
+- System
+    - Hardware
+    - Software Structure
+    - [+] System Conditions
+    - [+] Operational Logic
+
+Large Project (Mature Product):
+
+- Description
+- Target Users
+- Use Cases
+- [+] Architectural Decisions and Principles
+- System
+    - Hardware
+    - Software Structure
+    - [+] Testing Strategy
+    - System Conditions
+    - Operational Logic
